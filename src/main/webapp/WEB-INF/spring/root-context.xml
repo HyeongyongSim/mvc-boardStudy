@@ -36,9 +36,9 @@
 	
 	<tx:annotation-driven/>
 	
-	<mybatis-spring:scan base-package="com.media.dao"/>
+	<mybatis-spring:scan base-package="com.study.dao"/>
 	
-	<context:component-scan base-package="com.media.service"/>
+	<context:component-scan base-package="com.study.service"/>
 	
 </beans>
 
